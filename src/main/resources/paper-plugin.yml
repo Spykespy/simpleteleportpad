@@ -1,0 +1,21 @@
+name: simpleteleportpad
+version: '1.0-SNAPSHOT'
+main: org.spykemedia.simpleteleportpad.Simpleteleportpad
+api-version: '1.18'
+
+commands:
+  createpad:
+    description: Maakt een nieuwe pad aan.
+    usage: /createpad <naam>
+  pad:
+    description: Teleporteer naar een pad.
+    usage: /pad <naam>
+  listpads:
+    description: Geef alle pads weer.
+    usage: /listpads
+  linkpad:
+    description: Linkt 2 paden aan elkaar.
+    usage: /linkpad <pad1> <pad2>
+  path:
+    description: Teleporteer via paden.
+    usage: /linkpad <pad1> <pad2>
